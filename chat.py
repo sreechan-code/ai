@@ -5,7 +5,10 @@ import pyttsx3
 import threading
 from gtts import gTTS
 import os
+
+# Set page configuration (must be the first Streamlit command)
 st.set_page_config(page_title="eleAi")
+
 # Configure the API key directly
 genai.configure(api_key="AIzaSyBN9ZlpzLLoHklPYo7d_7y7Uw9UW1wlE9E")
 
@@ -49,7 +52,7 @@ def speak_text(text):
 st.set_page_config(page_title="eleAi")
 
 # CSS for positioning the logo on the top left
-st.markdown("""
+st.markdown(""" 
     <style>
     .top-left-logo {
         position: absolute;
@@ -77,7 +80,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Display team logo in the top-left corner
-st.sidebar.image("teamlogo.png", use_column_width=True) 
+st.sidebar.image("teamlogo.png", use_column_width=True)
 
 # Streamlit app title
 st.markdown("<h1>Welcome to eleAi</h1>", unsafe_allow_html=True)
