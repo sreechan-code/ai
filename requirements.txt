@@ -1,8 +1,7 @@
 streamlit
 google-generativeai
 speechrecognition
+sounddevice
+numpy
 pyttsx3
 gtts
-
-
-
