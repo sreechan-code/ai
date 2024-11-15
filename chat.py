@@ -112,9 +112,6 @@ elif mode == "Speak" and not in_cloud:
                         if hasattr(chunk, 'text') and chunk.text:
                             st.write(chunk.text)
                             full_response += chunk.text
-                        else:
-                            st.warning("No valid response received. The model might have detected copyrighted content.")
-
                     # Speak the response if desired
                     if full_response:
                         speak_text(full_response)
