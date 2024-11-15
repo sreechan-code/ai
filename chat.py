@@ -5,7 +5,7 @@ import pyttsx3
 import threading
 from gtts import gTTS
 import os
-
+st.set_page_config(page_title="eleAi")
 # Configure the API key directly
 genai.configure(api_key="AIzaSyBN9ZlpzLLoHklPYo7d_7y7Uw9UW1wlE9E")
 
