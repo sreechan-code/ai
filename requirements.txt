@@ -3,7 +3,7 @@ google-generativeai
 speechrecognition
 pyttsx3
 gtts
-playsound
+
 
 
 
