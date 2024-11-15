@@ -1,6 +1,6 @@
 streamlit
 google-generativeai
+gTTS
 speechrecognition
-pyttsx3
-gtts
 pyaudio
+mpg321
