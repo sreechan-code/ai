@@ -1,5 +1,6 @@
-streamlit
-google-generativeai
-speechrecognition
-pyttsx3
-gtts
+streamlit==1.40.1
+google-generativeai==0.8.3
+speechrecognition==3.11.0
+pyttsx3==2.98
+gtts==2.5.4
+pyaudio==0.2.11
