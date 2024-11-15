@@ -1,0 +1,7 @@
+streamlit
+google-generativeai
+speechrecognition
+pyttsx3
+gtts
+threading  # This is part of the Python standard library; no need to include it
+os  # This is part of the Python standard library; no need to include it
